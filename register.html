@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tattoo IDEA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!--FONTS--->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,100&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <nav><h1>Tattoos</h1></nav>
+            <nav>
+           <!--Main menu--->
+            <button class="tablink" onclick="window.location.href='index.html'" formtarget="_blank">Home</button>
+				<button class="tablink" onclick="window.location.href='stories.html'" formtarget="_blank">Stories</button>
+				<button class="tablink" onclick="window.location.href='prosNcons.html'" formtarget="_blank">Pros and Cons</button>
+				<button class="tablink" onclick="window.location.href='tattooShops.html'" formtarget="_blank">Tattoo shops</button>
+				<button class="tablink" onclick="window.location.href='register.html'" formtarget="_blank">Register</button>
+        
+    </nav>
+    </header>
+		<main>
+			<h1>Register</h1>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" name="name" placeholder="Name" required="true">
+				<label for="familyName">Last name:</label>
+				<input type="text" name="familyName" placeholder="Last name" required="true">
+				<label for="email">Choose your email:</label>
+				<input type="email" name="email" required="true" placeholder="E-mail">
+				<label for="birthDate">Birthday</label>
+				<input type="date" name="birthDate" required="true">
+				<label for="interested">Choose interest:</label>
+				<select>
+					<option>tattoo art</option>
+                    <option>getting a tattoo</option>
+                </select>
+                <label for="tattooShop">Shop</label>
+                <select>
+                    <option>Totenkopf</option>
+                    <option>Gvendi</option>
+                    <option>Forevermore </option>
+                    <option>Georgi Dimov</option>
+                    <option>Maina</option>
+                    <option>Freedom</option>
+                    <option>other</option>
+                </select>
+                <label for="text">Your comment </label>
+				<textarea placeholder="Your comment towards this website:"></textarea>
+				<input id="submitBtn" type="submit" name="submit" value="Send!">
+            </form>
+        </main>
+    </body>
+</html>

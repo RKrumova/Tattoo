@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,100&display=swap');
+/*fonts 
+font-family: 'Girassol', cursive;
+font-family: 'Texturina', serif;*/
+body{
+    background-color: rgb(3, 8, 20);
+    color:whitesmoke;
+    font-family: 'Texturina', serif;
+}
+button{
+  border: 0;
+  font-size: 2vw;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(2, 4, 15); 
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: 'Texturina', serif;
+  list-style-type: none;
+  overflow: hidden;
+  transition: transform .2s;
+	display: block;
+  padding: 14px 16px;
+}
+button:hover{
+	transform: scale(1.1);
+}
+h1, h4{
+    text-align: center;
+    font-family: 'Girassol', cursive;
+    font-size: 2vw; 
+}
+h1{
+    font-size: 3vw;
+    background-color:rgb(5, 7, 10); 
+}
+
+nav, ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 4, 15);
+    font-size: 2vw;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Texturina', serif;
+  }
+li a:hover { background-color: rgb(6, 15, 36);}
+nav ul>li{
+    padding: 20px;
+}
+/*body*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#hidden {
+    display: none;
+}
+div:hover #hidden {
+    display: block;
+}
+footer{
+  clear: both;
+  padding: 2%;
+  background-color: rgb(2, 4, 15);
+  color:whitesmoke;
+  font-size: 1.8vw;
+  text-align: center;
+  font-family: 'Texturina', serif;
+}

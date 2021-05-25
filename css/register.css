@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+  border: 0;
+  font-size: 2.6vw;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(2, 4, 15); 
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: 'Texturina', serif;
+  list-style-type: none;
+  overflow: hidden;
+  transition: transform .2s;
+	display: block;
+  padding: 14px 16px;
+}
+.tablink{
+	border: 0;
+	  transition: transform .2s;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 4, 15);
+    font-size: 2vw;
+	 list-style-type: none;
+    color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Texturina', serif;
+}
+.tablink:hover{
+	transform: scale(1.1);
+}
+/*use for index.html && history*/
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,100&display=swap');
+
+/*fonts 
+font-family: 'Girassol', cursive;
+font-family: 'Texturina', serif;*/
+/*this whole shit is body*/
+body{
+    background-color: rgb(3, 8, 20);
+    color:whitesmoke;
+    font-family: 'Texturina', serif;
+}
+h1{
+    font-family: 'Girassol', cursive;
+    font-size: 3vw;
+    background-color:rgb(5, 7, 10);
+}
+/*list*/
+nav, ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 4, 15);
+    font-size: 2.6vw;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Texturina', serif;
+  }
+li a:hover { background-color: rgb(6, 15, 36);}
+nav ul>li{
+    padding: 20px;
+}
+
+main{
+    text-align: center;
+    font-family: 'Texturina', serif;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .main{
+    flex: 50%;
+    padding: 5%;
+  }
+  aside{
+    flex: 26%;
+    padding: 2%;
+    background-color: #ff9933;
+  }
+
+aside div{
+    background-color: #994d00;
+    padding: 2%;
+}
+/*register*/
+input{
+background-color: rgb(2, 4, 15, 78);
+color: whitesmoke;
+font-style: oblique;
+font-size: 1.9vw;
+}
+input, select, textarea{
+  font-family: 'Texturina', serif;
+  font-size: 2vw;
+  display: flex;
+	width: 90%;
+	padding: 1%;
+	margin: 2%;
+}
+
+label{
+	display: block;
+	font-size: 2vw;
+	font-weight: bold;
+    font-family: 'Texturina', serif;
+}
+
+#submitBtn{
+	background-color:  rgb(6, 15, 36);
+	font-size: 2.4vw;
+	border:0;
+	border-radius: 25px;
+	color: white;
+	display: block;
+	text-align: center;
+}
+#submitBtn:hover{
+	cursor: pointer;
+	background-color: rgb(6, 15, 36, 0.7);
+}
